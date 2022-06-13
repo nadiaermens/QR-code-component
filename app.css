@@ -17,7 +17,6 @@ body {
     padding: 20px 20px;
     width: 100%;
     max-width: 275px;
-    max-height: 450px;
     text-align: center;
 
 }
@@ -32,6 +31,7 @@ p {
     font-size: 15px;
     color: hsl(220, 15%, 55%);
     font-weight: 400;
+    margin: 15px 0px 25px 0px;
 }
 
 img {
