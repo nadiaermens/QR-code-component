@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column;
 }
 
 .panel {
@@ -39,4 +40,12 @@ img {
     width: 100%;
     max-width: 100%;
     border-radius: 5%;
+}
+
+.attribution {
+    display: block;
+    color: hsl(228, 45%, 44%);
+    font-size: 11px;
+    text-align: center;
+    padding: 25px 0px;
 }
