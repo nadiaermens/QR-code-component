@@ -3,13 +3,17 @@ html {
     box-sizing: border-box;
 }
 
+::before,
+::after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    min-width: 100vw;
     flex-direction: column;
     margin: 0;
 }
@@ -22,8 +26,6 @@ body {
     max-width: 275px;
     max-height: 450px;
     text-align: center;
-    position: sticky;
-
 }
 
 h1 {
